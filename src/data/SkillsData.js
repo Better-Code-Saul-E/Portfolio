@@ -12,7 +12,7 @@ import VscodeIcon from '../assets/logo/VisualStudioCode.svg';
 import VsIcon from '../assets/logo/VisualStudio.svg';
 import XcodeIcon from '../assets/logo/Xcode.svg';
 import GitIcon from '../assets/logo/Git.svg';
-import GithubIcon from '../assets/logo/Github.svg';
+import GithubIcon from '../assets/logo/GitHub.svg';
 import FigmaIcon from '../assets/logo/Figma.svg';
 
 import AdobephotoshopIcon from '../assets/logo/PhotoShop_Adobe.png';
