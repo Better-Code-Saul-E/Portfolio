@@ -1,0 +1,35 @@
+/*
+orange : #CC5804
+brown: #A97C73
+green: #575C55
+
+background: #E8E6D5
+blue: #6A7EDB
+pink: #E83051
+yellow: #F0CF54
+*/
+
+.footer {
+  padding: 0 2rem 2rem;
+  background-color: #EBE9DA; 
+  color: #575C55; 
+  margin-top: 3rem;
+}
+
+.socialIcons a {
+  margin-left: 1.5rem;
+  display: inline-block;
+  transition: transform 0.2s ease-in-out;
+
+  img {
+    height: 30px;
+    width: 30px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+    img {
+      opacity: 1;
+    }
+  }
+}

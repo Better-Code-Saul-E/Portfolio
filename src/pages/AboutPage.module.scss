@@ -1,0 +1,96 @@
+/*
+orange : #CC5804
+brown: #A97C73
+divider <hr>: #575C55
+
+background: #E8E6D5
+blue: #6A7EDB
+pink: #E83051
+yellow: #F0CF54
+*/
+
+.brand{
+  margin-bottom: 5%;
+}
+
+.skillBadge {
+    display: inline-flex; 
+    align-items: center; 
+    gap: 8px;            
+    
+    background-color: #f0f0f0; 
+    border: 1px solid #ddd;
+    
+    padding: 6px 12px;      
+    border-radius: 20px;    
+    margin-right: 8px;      
+    margin-bottom: 8px;    
+    font-size: 0.9rem;
+    font-family: var(--text-font);
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+}
+
+.skillIcon {
+    height: 20px;
+    width: 20px;
+}
+
+
+.customAccordion {
+
+  // This will style the main background of each item when collapsed
+  :global(.accordion-item) {
+    background-color: transparent; 
+    border: 1px solid #cccccc; 
+  }
+
+  // This styles the button/header part of the accordion
+  :global(.accordion-button) {
+    background-color: #dcd9c9; 
+    color: #333;               
+  }
+
+  // This styles the header button WHEN it is NOT collapsed 
+  :global(.accordion-button:not(.collapsed)) {
+    background-color: #575c55; 
+    color: white;              
+  }
+
+  // This styles the little arrow to be visible on a dark background
+  :global(.accordion-button:not(.collapsed)::after) {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
+
+  /* This styles the content area that opens up
+  :global(.accordion-body) {
+    background-color: transparent;
+  }*/
+}
+
+.themedCard {
+
+  // targets the Card component itself
+  :global(.card) {
+    background-color: #F7F6F0; 
+    border: 2px solid #A97C73; 
+    color: #333; 
+  }
+
+  // button styles
+  :global(.btn-dark) {
+    background-color: #CC5804; 
+    border-color: #CC5804;    
+    font-family: var(--header-font); 
+
+    &:hover {
+      background-color: #575C55; 
+      border-color: #575C55;
+    }
+  }
+}
+

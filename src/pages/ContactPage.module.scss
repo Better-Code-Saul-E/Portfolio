@@ -1,0 +1,53 @@
+.contactForm {
+    --contact-form-color: #425CD1;
+
+    // Target the labels for all form controls
+    :global(.form-label) {
+        color: var(--contact-form-color);
+        font-family: var(--header-font);
+        font-size: 1.1rem;
+        text-align: left;
+        width: 100%;
+    }
+
+    // Target the input and textarea fields
+    :global(.form-control) {
+        background-color: transparent;
+        border: none;
+        border-radius: 0;
+        padding: 20px 0;
+        border-bottom: solid var(--contact-form-color) 2px;
+        color: #333;
+
+        &:focus {
+            background-color: transparent;
+            box-shadow: none;
+            border-color: var(--contact-form-color);
+        }
+    }
+
+
+    // Target the button (we used variant="dark", so we target .btn-dark)
+    :global(.btn-dark) {
+        padding: 15px 30px;
+        width: 200px;
+        border-radius: 50px;
+        border: solid var(--contact-form-color) 2px;
+        color: var(--contact-form-color);
+        background-color: transparent;
+        font-family: var(--header-font);
+        font-size: 1.1rem;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+            background-color: var(--contact-form-color);
+            color: white;
+        }
+
+        &:disabled {
+            background-color: #6c757d;
+            border-color: #6c757d;
+            opacity: 0.65;
+        }
+    }
+}

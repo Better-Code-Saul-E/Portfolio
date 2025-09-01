@@ -1,0 +1,58 @@
+.projectCard {
+  background-color: #F7F6F0; 
+  border: 2px solid #A97C73; 
+  margin-bottom: 3rem;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  }
+
+  //custom button styles
+  :global(.btn-dark) {
+    background-color: #CC5804; 
+    border-color: #CC5804;
+    font-family: var(--header-font);
+
+    &:hover {
+      background-color: #A97C73; 
+      border-color: #A97C73;
+    }
+  }
+
+  :global(.btn-outline-dark) {
+    color: #575C55; 
+    border-color: #575C55;
+    font-family: var(--header-font);
+
+    &:hover {
+      background-color: #575C55;
+      color: white;
+    }
+  }
+}
+
+.carouselImage {
+  height: 280px; 
+  object-fit: cover;
+  object-position: top;
+}
+
+.skillBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #e9ecef;
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+.skillIcon {
+  height: 20px;
+  width: 20px;
+}
