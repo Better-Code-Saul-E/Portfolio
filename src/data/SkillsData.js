@@ -70,11 +70,11 @@ export const designTools = [
 ];
 
 export const apis = [
-    { name: "ip", iconSrc: ip },
-    { name: "my memory", iconSrc: myMemory},
-    { name: 'Open weather', iconSrc: openWeather},
-    { name: 'Quoteable', iconSrc: quoteable},
-    { name: 'Open Countries', iconSrc: openCountries}
+    { name: "ip-api", iconSrc: ip },
+    { name: "MyMemoryAPI", iconSrc: myMemory },
+    { name: "OpenWeatherMapAPI", iconSrc: openWeather },
+    { name: "QuotableAPI", iconSrc: quoteable },
+    { name: "RestCountries", iconSrc: openCountries }
 ]
 
 export const allSkills = [
