@@ -7,7 +7,7 @@ import bauhaus from '../assets/images/bauhaus.png';
 import StanfordLogo from '../assets/logo/Stanford.png';
 import CiscoLogo from '../assets/logo/Cisco.jpg';
 import GoogleLogo from '../assets/logo/Google.png';
-import MetaLogo from '../assets/logo/meta.png';
+import MetaLogo from '../assets/logo/Meta.png';
 
 const certifications = [
     {
