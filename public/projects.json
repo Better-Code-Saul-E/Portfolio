@@ -1,5 +1,26 @@
 [
   {
+    "title": "IT Asset Tracker",
+    "description": "A Python-based CLI application for managing IT assets. Track laptops, desktops, servers, and other devices with details like CPU, RAM, storage, motherboard, BIOS, GPU, and battery information. Supports adding, listing, updating, deleting, and exporting assets.",
+    "career": "back-end",
+    "languages": [
+      "Python"
+    ],
+    "tech": [
+      "Python",
+      "SQLite",
+      "Visual Studio Code"
+    ],
+    "images": [
+      "ExportData.png",
+      "DisplayData.png",
+      "DeleteData.png"
+    ],
+    "github": "https://github.com/Better-Code-Saul-E/IT_Asset_Tracker",
+    "liveSite": null,
+    "hero": true
+  },
+  {
     "title": "Event Ledger",
     "description": "An interactive web application designed to help users plan and budget for events. Easily select venues, A/V equipment, and meal plans, and see the total cost update in real-time.",
     "career": "front-end",

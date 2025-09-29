@@ -15,6 +15,8 @@ import GitIcon from '../assets/logo/Git.svg';
 import GithubIcon from '../assets/logo/GitHub.svg';
 import FigmaIcon from '../assets/logo/Figma.svg';
 
+import SQLiteIcon from '../assets/logo/SQLite.svg';
+
 import AdobephotoshopIcon from '../assets/logo/PhotoShop_Adobe.png';
 import IllustratorIcon from '../assets/logo/Illustrator_Adobe.png';
 import CanvaIcon from '../assets/logo/Canva.png';
@@ -36,6 +38,9 @@ export const languages = [
     { name: 'Swift', iconSrc: SwiftIcon },
     { name: 'HTML', iconSrc: HtmlIcon },
     { name: 'CSS', iconSrc: CssIcon }
+];
+export const databases = [
+    {name: 'SQLite', iconSrc: SQLiteIcon }
 ];
 export const frameworks = [
     { name: 'Dot NET', iconSrc: DotnetIcon },
@@ -79,6 +84,7 @@ export const apis = [
 
 export const allSkills = [
     ...languages,
+    ...databases,
     ...frameworks,
     ...libraries,
     ...preprocessor,

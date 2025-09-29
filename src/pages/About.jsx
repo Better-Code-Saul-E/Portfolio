@@ -7,9 +7,14 @@ import bauhaus from '../assets/images/bauhaus.png';
 import StanfordLogo from '../assets/logo/Stanford.png';
 import CiscoLogo from '../assets/logo/Cisco.jpg';
 import GoogleLogo from '../assets/logo/Google.png';
-
+import MetaLogo from '../assets/logo/meta.png';
 
 const certifications = [
+    {
+        title: 'Meta React Specialization',
+        logoSrc: MetaLogo,
+        link: 'https://coursera.org/share/ee3c2f7f5bb70aa23167e05c59fefbc6'
+    },
     {
         title: 'Google IT Support ',
         logoSrc: GoogleLogo,
