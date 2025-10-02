@@ -1,4 +1,24 @@
 [
+  {  
+    "title": "Credential Vault",  
+    "description": "A Python-based CLI vault where you can securely add, view, delete, and update credentials with AES encryption and a master password.",  
+    "career": "back-end",  
+    "languages": [    
+      "Python"  
+      ],  
+      "tech": [    
+        "Python",
+        "Visual Studio Code"
+      ],  
+      "images": [    
+          "ViewCredentials.png",    
+          "DeleteCredential.png",    
+          "AddCredential.png"  
+          ],  
+      "github": "https://github.com/Better-Code-Saul-E/Credential_Vault",  
+      "liveSite": null,  
+      "hero": true
+    },
   {
     "title": "IT Asset Tracker",
     "description": "A Python-based CLI application for managing IT assets. Track laptops, desktops, servers, and other devices with details like CPU, RAM, storage, motherboard, BIOS, GPU, and battery information. Supports adding, listing, updating, deleting, and exporting assets.",
